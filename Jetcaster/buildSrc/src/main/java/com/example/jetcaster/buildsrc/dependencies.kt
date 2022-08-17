@@ -25,7 +25,8 @@ object Libs {
     const val jdkDesugar = "com.android.tools:desugar_jdk_libs:1.1.5"
 
     object Accompanist {
-        const val version = "0.26.1-alpha"
+        const val version = "0.26.2-SNAPSHOT"
+        const val adaptive = "com.google.accompanist:accompanist-adaptive:$version"
         const val pager = "com.google.accompanist:accompanist-pager:$version"
     }
 
@@ -83,6 +84,7 @@ object Libs {
 
             const val ui = "androidx.compose.ui:ui:${version}"
             const val material = "androidx.compose.material:material:${version}"
+            const val material3WindowSizeClass = "androidx.compose.material3:material3-window-size-class:1.0.0-alpha16"
             const val materialIconsExtended = "androidx.compose.material:material-icons-extended:${version}"
 
             const val tooling = "androidx.compose.ui:ui-tooling:${version}"

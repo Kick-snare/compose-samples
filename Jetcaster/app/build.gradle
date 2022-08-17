@@ -105,6 +105,7 @@ dependencies {
 
     implementation Libs.AndroidX.Compose.foundation
     implementation Libs.AndroidX.Compose.material
+    implementation Libs.AndroidX.Compose.material3WindowSizeClass
     implementation Libs.AndroidX.Compose.materialIconsExtended
     implementation Libs.AndroidX.Compose.toolingPreview
     debugImplementation Libs.AndroidX.Compose.tooling
@@ -116,6 +117,7 @@ dependencies {
 
     implementation Libs.AndroidX.Window.window
 
+    implementation Libs.Accompanist.adaptive
     implementation Libs.Accompanist.pager
 
     implementation Libs.Coil.coilCompose
